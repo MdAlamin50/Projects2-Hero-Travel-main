@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
+*{
+    font-family: 'Mulish', sans-serif;
+
+
+}
+
+{
+    width: 1200px;
+    /* height: 600px; */
+    margin: 0px auto;
+    /* background-color: aqua; */
+}
+.img-style{
+    margin-bottom: -10px;
+}
+.nav-heder{
+    font-family: 'Mulish', sans-serif;
+    font-size: 30px;
+}
+.nav-contend-style{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-contend-style > ul{
+    display: flex;
+}
+.nav-contend-style li{
+    list-style: none;
+    margin-left: 30px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+   
+}
+.nav-contend-style li a{
+    text-decoration: none;
+
+}
+span{
+    color: #FF5400;
+}
+.images-style{
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    height: 650px;
+    /* margin-left: 180px; */
+    width: 1200px;
+    margin: 0px auto;
+    text-align: center;
+    
+}
+.images-title{
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 700px;
+    padding-top: 90px;
+}
+.images-dolor{
+    padding:0px 240px;
+    color: #FFF;
+}
+.optionel{
+    /* background-color: aqua; */
+    width: 800px;
+    height: 70px;
+    margin: 0px auto;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+/* main section */
+.main-section{
+    width: 1200px;
+    height: 650px;
+    display: flex;
+    margin: 0px auto;
+}
+.image-contianer{
+   width: 50%;
+   margin-left: 120px;
+}
+.title{
+    width: 50%;
+}
+.title h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800px;
+    
+}
+.title p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 15px;
+    font-weight: 400px;
+    padding-bottom: 10px;
+}
+.title li{
+    color:rgba(19, 19, 24, 0.70) ;
+    font-size: 15px;
+    font-weight: 400px;
+    padding-bottom: 25px;
+}
+.button-style{
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    padding: 14px 35px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 800px;
+}
+
+
+@media screen and (max-width:576px) {
+    .nav-contend{
+        width: 300px;
+        height: 64px;
+    }
+}
