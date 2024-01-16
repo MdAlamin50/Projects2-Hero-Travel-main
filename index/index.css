@@ -5,7 +5,7 @@
 
 }
 
-{
+.nav-contend{
     width: 1200px;
     /* height: 600px; */
     margin: 0px auto;
@@ -43,7 +43,7 @@ span{
 .images-style{
     background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
-    height: 650px;
+    height: 570px;
     /* margin-left: 180px; */
     width: 1200px;
     margin: 0px auto;
@@ -109,11 +109,54 @@ span{
     font-size: 15px;
     font-weight: 800px;
 }
+/* secton is a imagess */
+.row{
+    width: 1200px;
+    height: 800px;
+    margin: 0px auto;
+}
+.crowontenar-row{
+    text-align: center;
+}
+.crowontenar-row h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800px;
+}
+.crowontenar-row p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 15px;
+    font-weight: 400px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.image-responcive{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 13px;
+}
+.image-continar-recang{
+    padding-left: 14px;
+    gap: 25px;
+    grid-template-columns: repeat(3,1fr);
 
+    display: grid;
+    padding-top: 20px;
+ 
+}
+.image-contend{
+    padding-left: 14px;
+    gap: 25px;
+    grid-template-columns: repeat(2,1fr);
+    display: grid;
+    padding-top: 20px;
+}
+/* box section */
 
-@media screen and (max-width:576px) {
+/* @media screen and (max-width:576px) {
     .nav-contend{
         width: 300px;
         height: 64px;
+        flex-direction: column;
     }
-}
+} */
