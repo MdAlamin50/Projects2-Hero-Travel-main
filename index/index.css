@@ -253,6 +253,57 @@ span{
     color: #5A5A5D;
     padding: 0px 30px;
 }
+/* input section */
+.section-input{
+    width: 1200px;
+    height: 500px;
+    margin: 0px auto;
+}
+.input-contenar{
+    display: flex;
+}
+.input-contenar img{
+     margin-left: 20px;
+}
+.input-style{
+   width: 43%;
+   height: 400px;
+   border: 3px solid chartreuse;
+}
+.input-style h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800px;
+    padding-left: 40px;
+}
+.input-style p{
+   color: #5A5A5D;
+   font-size: 16px;
+   font-weight: 400px;
+   padding: 0px 40px;
+}
+.email-password{
+    width: 70%;
+    height: 30px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-left: 40px;
+}
+.button-content{
+    width: 70%;
+    height: 30px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-left: 40px;
+    background-color: #FF5400;
+    border: none;
+    color: #FFF;
+    font-size:20px;
+    font-weight:800px;
+}
+
+
+
 /* @media screen and (max-width:576px) {
     .nav-contend{
         width: 300px;
