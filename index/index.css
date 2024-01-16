@@ -98,3 +98,28 @@ main{
     justify-content: space-between;
     align-items: center;
 }
+.our-popler{
+    color:  #131318;
+    font-size:2.3rem ;
+    font-weight: 800px;
+}
+.main-contend-contenar{
+    margin-top: 20px;
+    gap: 20px;
+}
+.main-contend-contenar > ul > li, p{
+     margin: 24px 0px;
+     max-width: 700px;
+     color: rgba(19, 19, 24, 0.70);
+}
+.main-contend-contenar ul{
+    margin-left: 40px;
+}
+.img-style{
+    max-width: 500px;
+    max-height: 450px;
+    margin-top: 2rem;
+}
+.amet-consecterur{
+    margin-bottom: 2rem;
+}
