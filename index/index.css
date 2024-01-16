@@ -112,7 +112,7 @@ span{
 /* secton is a imagess */
 .row{
     width: 1200px;
-    height: 800px;
+    height: 1100px;
     margin: 0px auto;
 }
 .crowontenar-row{
@@ -152,7 +152,107 @@ span{
     padding-top: 20px;
 }
 /* box section */
+.box-style{
+    width: 1200PX;
+    height: 800px;
+    margin: 0 auto;
+}
+.box-contenar{
+    text-align: center;
+}
+.box-contenar h1{
+    font-size: 40px;
+    font-weight: 800px;
+    color: #131318;
+}
+.box-contenar p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 15px;
+    font-weight: 400px;
+    padding: 0px 300px;
 
+} 
+.box-title{
+    width: 50%;
+    height: 300px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.box-cotntend{
+    width: 50%;
+    height: 300px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    margin-left: 30px;
+}
+.section-style{
+    display: flex;
+    
+}
+.box-sit{
+    width: 50%;
+    height: 300px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin-left: 330px;
+    margin-top: 20px;
+}
+.box-title img{
+    height: 50px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.box-title h1{
+    font-size: 25px;
+    font-weight: 800px;
+    padding-left: 30px;
+    color: #131318;
+}
+.box-title p{
+    font-size: 15px;
+    font-weight: 400px;
+    color: #5A5A5D;
+    padding: 0px 30px;
+
+}
+.box-cotntend img{
+    height: 50px;
+    padding-left: 30px;
+    padding-top: 30px;
+
+}
+.box-cotntend h1{
+    font-size: 25px;
+    font-weight: 800px;
+    padding-left: 30px;
+    color: #131318;
+}
+.box-cotntend p{
+    font-size: 15px;
+    font-weight: 400px;
+    color: #5A5A5D;
+    padding: 0px 30px;
+}
+.box-sit img{
+    height: 50px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.box-sit h1{
+    font-size: 25px;
+    font-weight: 800px;
+    padding-left: 30px;
+    color: #131318;
+}
+.box-sit p{
+    font-size: 15px;
+    font-weight: 400px;
+    color: #5A5A5D;
+    padding: 0px 30px;
+}
 /* @media screen and (max-width:576px) {
     .nav-contend{
         width: 300px;
