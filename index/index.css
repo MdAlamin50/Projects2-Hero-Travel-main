@@ -126,6 +126,12 @@ main{
 .amet-consecterur{
     margin-bottom: 2rem;
 }
+.read{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400px;
+    max-width: 100%;
+}
 /* main section2 */
 .grit-row{
     display: flex;
@@ -310,6 +316,12 @@ background: rgba(41, 206, 246, 0.05);
     text-align: center;
     font-size: 1.2rem;
     font-weight: 800px;
+}
+.subscrib{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400px;
+    max-width: 100%;
 }
 /* footrer section */
 .foter-section{
