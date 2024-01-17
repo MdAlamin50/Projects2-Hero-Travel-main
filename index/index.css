@@ -27,6 +27,9 @@ nav a{
     text-decoration: none;
     color: #424247;
 }
+.hamburger{
+    display:none;
+}
 .home{
     color: #FF5400;
     font-size: 1.2rem;
@@ -142,16 +145,14 @@ main{
     max-width: 800px;
 }
 .main-imag-div{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    gap: 20px;
+    
 }
 .row{
     display: flex;
-    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
 }
 .img-contend-sitel{
     position:relative;
@@ -279,12 +280,9 @@ background: rgba(41, 206, 246, 0.05);
      border: none;
      margin: 16px 0px;
 }
-.incticson{
-    width: 55%;
-    position: relative;
-}
+
 .imge-foo{
-    width: 50%;
+    width: 55%;
     position: relative;
 }
 .imge-fote{
@@ -315,9 +313,16 @@ background: rgba(41, 206, 246, 0.05);
 }
 /* footrer section */
 .foter-section{
-    width: 100%px;
+    max-width: 100%;
     height:400px;
     background-color: #f4e9e3;
+}
+.footer-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .footer-style{
     display: flex;
@@ -328,18 +333,42 @@ background: rgba(41, 206, 246, 0.05);
 }
 .tixt{
     text-align: center;
-    padding-left: 420px;
 }
-.social-section{
-    text-align: center;
+.social-icon{
+    display: flex;
+    justify-content: center;
 }
-.hori{
-    width: 70%;
-    margin: 0px auto;
-    background: rgba(255, 255, 255, 0.15);;
-}
+
 .all-righis{
-  text-align: center;
-  margin-left: 450px;
   margin-top: 60px;
 }
+
+/* Responsive */
+@media screen and (max-width:545px){
+    header, section{
+        margin: 0px 20px;
+    }
+    .menu {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+    .optione ,.main-contend,.row,.icone-style,.sageittis{
+        flex-direction: column;
+    }
+    
+    .image-style,.image-style1 ,.sageittis,.footer-content {
+        width: 100%;
+    }
+    .imge-fote ,.imge-foo{
+       width: 94%;
+        margin: 20px 10px;
+    }
+    .commodo {
+        max-width: 80%;
+        margin: 0px 20px;
+        }
+
+}
+    
